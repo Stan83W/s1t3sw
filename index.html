@@ -11,37 +11,57 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/TweenMax.min.js"></script>
   </head>
   <body>
-    <a href="#" class="site-title">Stanislas Wiart</a>
-    <a href="#" class="nav-item">Infos</a>
-    
+
     <div class="cursor"></div>
     <div class="wrapper">
+      <div class="navigation">
+        <a href="#" class="site-title">Stanislas Wiart</a>
+        <a href="#" class="nav-item">Infos</a>
+      </div>
+
       <div class="project-list">
         <div class="project p-1">
-          <div class="project-title"><h1>Motionland</h1></div>
-          <div class="project-categ">Branding</div>
-          <div class="project-overlay"></div>
+          <div class="project-title"><h1><a href="#">Ellozze</a></h1></div>
+          <div class="project-categ">Digital Design</div>
         </div>
         <div class="project p-2">
-          <div class="project-title"><h1>Focus Reactive</h1></div>
-          <div class="project-categ">Photography</div>
-          <div class="project-overlay"></div>
+          <div class="project-title"><h1><a href="#">Nomasei</a></h1></div>
+          <div class="project-categ">Digital Design</div>
         </div>
         <div class="project p-3">
-          <div class="project-title"><h1>Aspect</h1></div>
-          <div class="project-categ">Web Design</div>
-          <div class="project-overlay"></div>
+          <div class="project-title"><h1><a href="#">Carolina Ritzler</a></h1></div>
+          <div class="project-categ">Digital Design, Front-end</div>
         </div>
         <div class="project p-4">
-          <div class="project-title"><h1>Logomark</h1></div>
-          <div class="project-categ">Branding</div>
-          <div class="project-overlay"></div>
+          <div class="project-title"><h1><a href="#">Time</a></h1></div>
+          <div class="project-categ">Front-end</div>
         </div>
+        <div class="project p-4">
+          <div class="project-title"><h1><a href="#">Place</a></h1></div>
+          <div class="project-categ">Branding, Digital Design</div>
+        </div>
+        <div class="project p-4">
+          <div class="project-title"><h1><a href="#">Agence 41</a></h1></div>
+          <div class="project-categ">Front-end</div>
+        </div>
+        <div class="project p-4">
+          <div class="project-title"><h1><a href="#">Domestic Landscape</a></h1></div>
+          <div class="project-categ">Front-end</div>
+        </div>
+        <div class="project p-4">
+          <div class="project-title"><h1><a href="#">Coll.Part</a></h1></div>
+          <div class="project-categ">Front-end</div>
+        </div>
+        <div class="project p-4">
+          <div class="project-title"><h1><a href="#">Virginie T.</a></h1></div>
+          <div class="project-categ">Front-end</div>
+        </div>
+
       </div>
     </div>
     <script>
       var $cursor = $(".cursor"),
-        $overlay = $(".project-overlay");
+        $overlay = $(".project-list a");
 
       function moveCircle(e) {
         TweenLite.to($cursor, 0.5, {
