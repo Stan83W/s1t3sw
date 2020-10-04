@@ -23,6 +23,24 @@ var $cursor = $(".cursor"),
       $(".p-4").hover(function() {
         $(".cursor").css({ "background-image": "url(image-4.jpg)" });
       });
+      $(".p-5").hover(function() {
+        $(".cursor").css({ "background-image": "url(image-5.jpg)" });
+      });
+      $(".p-6").hover(function() {
+        $(".cursor").css({ "background-image": "url(image-6.jpg)" });
+      });
+      $(".p-7").hover(function() {
+        $(".cursor").css({ "background-image": "url(image-7.jpg)" });
+      });
+      $(".p-8").hover(function() {
+        $(".cursor").css({ "background-image": "url(image-8.jpg)" });
+      });
+      $(".p-9").hover(function() {
+        $(".cursor").css({ "background-image": "url(image-9.jpg)" });
+      });
+      $(".p-10").hover(function() {
+        $(".cursor").css({ "background-image": "url(image-10.jpg)" });
+      });
 
       var flag = false;
       $($overlay).mousemove(function() {
