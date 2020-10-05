@@ -101,3 +101,13 @@ body {
   color: white;
   mix-blend-mode: difference;
 }
+.nav {
+    position: fixed;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    left: 6%;
+    background: #252e2d;
+}
