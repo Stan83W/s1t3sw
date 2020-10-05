@@ -1,3 +1,5 @@
+/* List */
+
 var $cursor = $(".cursor"),
         $overlay = $(".project-list a");
 
@@ -54,6 +56,13 @@ var $cursor = $(".cursor"),
         TweenLite.to($cursor, 0.3, { scale: 0.1, autoAlpha: 0 });
       });
 
+      /* Toggle*/
+
+      TweenMax.from(".navbar", 2, {
+          left: "-20%",
+          ease: Expo.easeInOut,
+          delay: 0.4,
+      });
 
       var t1 = new TimelineMax({ paused: true });
       t1.to(".nav", 1.8, {
