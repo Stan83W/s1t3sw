@@ -57,7 +57,7 @@ var $cursor = $(".cursor"),
 
       var t1 = new TimelineMax({ paused: true });
       t1.to(".nav", 1.8, {
-          width: "94%",
+          width: "100%",
           ease: Expo.easeInOut,
       });
 
