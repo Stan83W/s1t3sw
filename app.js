@@ -58,27 +58,21 @@ var $cursor = $(".cursor"),
 
       /* Toggle*/
 
-      TweenMax.from(".navbar", 2, {
-          left: "-20%",
-          ease: Expo.easeInOut,
-          delay: 0.4,
-      });
-
       var t1 = new TimelineMax({ paused: true });
       t1.to(".nav", 1.8, {
           width: "100%",
           ease: Expo.easeInOut,
       });
 
-      t1.staggerTo(".nav-item a", 0.6, { top: "0px", ease: Expo.easeInOut }, 0.1, "-=0.8");
+      t1.staggerTo(".nav-item p", 0.6, { top: "0px", ease: Expo.easeInOut }, 0.1, "-=0.8");
 
       t1.reverse();
       $(document).on("click", ".nav-toggle", function () {
           t1.reversed(!t1.reversed());
-      });
-
-      $(document).on("click", ".nav-item a", function () {
-          t1.reversed(!t1.reversed());
+          setTimeout(function() {
+            var navContent = document.querySelector(".nav-toggle");
+            navContent.innerText = "Close";
+          }, 1000);
       });
 
       /* Loader */
@@ -95,10 +89,16 @@ var $cursor = $(".cursor"),
 
        $('#preloader').delay(1500).animate({top: '-100%'}, 2000, $.bez([0.19,1,0.22,1]));
 
-       TweenMax.from(".title", 2, {
+       /*TweenMax.from(".title", 2, {
             delay: 1.8,
-                 y: 10,
-                 opacity: 0,
-                 ease: Expo.easeInOut
+            y: 10,
+            opacity: 0,
+            ease: Expo.easeInOut
            })
+       TweenMax.from(".nav-toggle", 2, {
+            delay: 2.2,
+            y: 10,  
+            opacity: 0,
+            ease: Expo.easeInOut
+           })*/
       });
