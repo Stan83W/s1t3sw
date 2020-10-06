@@ -137,15 +137,3 @@ body {
 .nav-item {
   overflow: hidden;
 }
-
-/*.nav-item-wrapper:after {
-    content: "";
-    position: absolute;
-    top: 140px;
-    left: 0;
-    width: 110%;
-    height: 100%;
-    background: black;
-    margin: 0 auto;
-    transition: 1s;
-}*/
