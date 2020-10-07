@@ -31,6 +31,9 @@ body {
   font-size: 20px;
   letter-spacing: 0.05em;
 }
+.social a {
+  margin: 0 0 0 15px;
+}
 .cursor {
   position: absolute;
   width: 450px;
