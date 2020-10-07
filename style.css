@@ -3,8 +3,8 @@
   src: url("fonts/OR.otf");
 }
 @font-face {
-  font-family: "HSB";
-  src: url("fonts/HSB.otf");
+  font-family: "DB";
+  src: url("fonts/DB.otf");
 }
 
 html,
@@ -26,9 +26,10 @@ body {
   font-weight: 300;
 }
 .project-categ {
-  font-family: "HSB";
+  font-family: "DB";
   margin: 0 15px;
-  font-size: 12px;
+  font-size: 20px;
+  letter-spacing: 0.05em;
 }
 .cursor {
   position: absolute;
