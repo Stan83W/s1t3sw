@@ -53,7 +53,7 @@ var $cursor = $(".cursor"),
 
       $($overlay).mouseout(function() {
         flag = false;
-        TweenLite.to($cursor, 0.3, { scale: 0.1, autoAlpha: 0 });
+        TweenLite.to($cursor, 0.3, { scale: 1, autoAlpha: 0 });
       });
 
       /* Toggle*/
