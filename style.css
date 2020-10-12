@@ -22,6 +22,7 @@ body {
 
 
 /* List */
+
 .project-title h1 {
   font-weight: 300;
 }
@@ -101,6 +102,9 @@ body {
 }
 .description h1.social {
   margin: 0 0 50px 0;
+}
+.not-hovered a, .not-hovered .project-categ {
+  color: rgba(255,255,255,0.1) !important;
 }
 
 /* Navbar */

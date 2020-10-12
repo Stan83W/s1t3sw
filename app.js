@@ -62,6 +62,42 @@ var $cursor = $(".cursor"),
         TweenLite.to($cursor, 0.3, { scale: 1, autoAlpha: 0 });
       });
 
+
+
+      // Grey out projects
+
+        $($overlay).mouseenter(function() {
+          selectNotHovered();
+          removeHovered();
+        });
+        
+         $($overlay).mouseleave(function() {
+            removeNotHovered();
+        });
+        
+        function selectNotHovered() {
+          var overlays = document.querySelectorAll(".project:not(:hover)");
+          overlayArray = Array.prototype.slice.call(overlays,0);
+          overlayArray.forEach(function(over){
+              over.classList.add("not-hovered"); 
+          });
+        }
+
+        function removeNotHovered() {
+          var overlays = document.querySelectorAll(".project:not(:hover)");
+          overlayArray = Array.prototype.slice.call(overlays,0);
+          overlayArray.forEach(function(over){
+              over.classList.remove("not-hovered"); 
+          });
+        }
+        
+          function removeHovered() {
+          var overlays = document.querySelectorAll(".project:hover");
+          overlayArray = Array.prototype.slice.call(overlays,0);
+          overlayArray.forEach(function(over){
+              over.classList.remove("not-hovered"); 
+          });
+        }
       /* Toggle*/
 
       var t1 = new TimelineMax({ paused: true });
