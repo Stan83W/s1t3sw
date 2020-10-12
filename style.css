@@ -113,6 +113,10 @@ body {
 
 /* Navbar */
 
+.sub {
+  font-family: "DB";
+  letter-spacing: 0.05em;
+}
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -121,6 +125,7 @@ body {
   color: white;
   text-decoration: none;
   mix-blend-mode: difference;
+  font-size: 20px;
 }
 .nav {
   position: fixed;
