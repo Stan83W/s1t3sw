@@ -1,7 +1,7 @@
 /* List */
 
 var $cursor = $(".cursor"),
-        $overlay = $(".project-list a");
+        $overlay = $(".project-title");
 
       function moveCircle(e) {
         TweenLite.to($cursor, 0.5, {

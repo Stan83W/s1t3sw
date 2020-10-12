@@ -99,6 +99,9 @@ body {
   color: white;
   mix-blend-mode: difference;
 }
+.description h1.social {
+  margin: 0 0 50px 0;
+}
 
 /* Navbar */
 
