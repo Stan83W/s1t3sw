@@ -43,6 +43,12 @@ var $cursor = $(".cursor"),
       $(".p-10").hover(function() {
         $(".cursor").css({ "background-image": "url(image-10.jpg)" });
       });
+      $(".p-11").hover(function() {
+        $(".cursor").css({ "background-image": "url(image-11.jpg)" });
+      });
+      $(".p-12").hover(function() {
+        $(".cursor").css({ "background-image": "url(image-12.jpg)" });
+      });
 
       var flag = false;
       $($overlay).mousemove(function() {
@@ -71,7 +77,11 @@ var $cursor = $(".cursor"),
           t1.reversed(!t1.reversed());
           setTimeout(function() {
             var navContent = document.querySelector(".nav-toggle");
-            navContent.innerText = "Close";
+            if (navContent.innerText !== "Close") {
+              navContent.innerText = "Close";
+            } else {
+              navContent.innerText = "Infos";
+            }
           }, 1000);
       });
 
