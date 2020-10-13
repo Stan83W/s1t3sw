@@ -98,7 +98,8 @@ var $cursor = $(".cursor"),
               over.classList.remove("not-hovered"); 
           });
         }
-      /* Toggle*/
+
+      /* Toggle */
 
       var t1 = new TimelineMax({ paused: true });
       t1.to(".nav", 1.8, {
@@ -111,15 +112,17 @@ var $cursor = $(".cursor"),
       t1.reverse();
       $(document).on("click", ".nav-toggle", function () {
           t1.reversed(!t1.reversed());
-          setTimeout(function() {
-            var navContent = document.querySelector(".nav-toggle");
-            if (navContent.innerText !== "Close") {
-              navContent.innerText = "Close";
-            } else {
-              navContent.innerText = "Infos";
-            }
-          }, 1000);
       });
+
+      // Text toggle
+      function toggleText(e) {
+        setTimeout(function() {
+          e.target.textContent == 'Infos' ? e.target.textContent = 'Close' : e.target.textContent = 'Infos'; 
+        }, 1000);
+      }
+
+      var button = document.querySelector('.nav-toggle');
+      button.addEventListener('click', toggleText);
 
       /* Loader */
 
