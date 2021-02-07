@@ -6,6 +6,10 @@
   font-family: "DB";
   src: url("fonts/DB.otf");
 }
+@font-face {
+  font-family: "FBT";
+  src: url("fonts/FBT.ttf");
+}
 
 html,
 body {
@@ -30,7 +34,7 @@ body {
   transition: all 0.5s ease;
 }
 .project-categ {
-  font-family: "DB";
+  font-family: "FBT";
   margin: 0 15px;
   font-size: 20px;
   letter-spacing: 0.05em;
@@ -114,7 +118,7 @@ body {
 /* Navbar */
 
 .sub {
-  font-family: "DB";
+  font-family: "FBT";
   letter-spacing: 0.05em;
 }
 .navigation {
