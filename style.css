@@ -1,6 +1,6 @@
 @font-face {
   font-family: "OR";
-  src: url("fonts/OR.otf");
+  src: url("fonts/SC.otf");
 }
 @font-face {
   font-family: "DB";
@@ -8,7 +8,7 @@
 }
 @font-face {
   font-family: "FBT";
-  src: url("fonts/FBT.ttf");
+  src: url("fonts/VI.ttf");
 }
 
 html,
@@ -17,7 +17,7 @@ body {
   padding: 0%;
   width: 100%;
   height: 100%;
-  font-family: "OR";
+  font-family: "SC";
   text-transform: uppercase;
   background: white;
   top: 0;
@@ -34,7 +34,7 @@ body {
   transition: all 0.5s ease;
 }
 .project-categ {
-  font-family: "FBT";
+  font-family: "VI";
   margin: 0 15px;
   font-size: 27px;
   letter-spacing: 0.05em;
@@ -119,7 +119,7 @@ body {
 /* Navbar */
 
 .sub {
-  font-family: "FBT";
+  font-family: "VI";
   letter-spacing: 0.05em;
   text-transform: capitalize;
 }
