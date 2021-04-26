@@ -27,10 +27,10 @@ body {
 
 /* List */
 
-.project-title h1 {
+.project-title span {
   font-weight: 300;
 }
-.project-title h1 a {
+.project-title span a {
   transition: all 0.5s ease;
 }
 .project-categ {
@@ -73,7 +73,7 @@ body {
   color: white;
   mix-blend-mode: difference;
 }
-.project h1 {
+.project span {
   font-size: 50px;
   margin: 0;
 }
@@ -94,7 +94,7 @@ body {
   color: white;
   text-decoration: none;
 }
-.description h1 {
+.description span {
   font-weight: normal;
   font-size: 50px;
   margin: 0;
@@ -109,7 +109,7 @@ body {
   color: white;
   mix-blend-mode: difference;
 }
-.description h1.social {
+.description span.social {
   margin: 0 0 50px 0;
 }
 .not-hovered a, .not-hovered .project-categ {
