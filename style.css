@@ -73,7 +73,7 @@ body {
   color: white;
   mix-blend-mode: difference;
 }
-.project span {
+.project span:not(.project-categ) {
   font-size: 50px;
   margin: 0;
 }
