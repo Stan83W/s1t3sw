@@ -65,8 +65,8 @@ body {
 }
 
 .project {
-  display: flex;
-  align-items: baseline;
+/*  display: flex;
+  align-items: baseline;*/
   line-height: 0.9;
   position: relative;
   z-index: 2;
@@ -86,8 +86,8 @@ body {
   z-index: 1;
 }
 .project-list {
-  display: flex;
-  flex-wrap: wrap;
+/*  display: flex;
+  flex-wrap: wrap;*/
   margin-top: 80px;
 }
 .project-list a {
