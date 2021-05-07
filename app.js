@@ -150,4 +150,4 @@ var $cursor = $(".cursor"),
             opacity: 0,
             ease: Expo.easeInOut
            })*/
-      });
+      /*});*/
