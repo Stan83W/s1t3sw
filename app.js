@@ -136,7 +136,7 @@ var $cursor = $(".cursor"),
        $('.p').delay(500).animate({top: '30%', opacity: '0'}, 3000, $.bez([0.19,1,0.22,1]));
 
 
-       $('#preloader').delay(1500).animate({top: '-110%'}, 2000, $.bez([0.19,1,0.22,1]));
+       $('#preloader').delay(500).animate({top: '-110%'}, 1000, $.bez([0.19,1,0.22,1]));
 
        /*TweenMax.from(".title", 2, {
             delay: 1.8,
