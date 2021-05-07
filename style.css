@@ -179,7 +179,7 @@ body {
 
 /* Loader */
 
-.pace {
+/*.pace {
   pointer-events: none;
   user-select: none;
   z-index: 2000;
@@ -231,4 +231,4 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-}
+}*/
