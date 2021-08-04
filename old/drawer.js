@@ -1,0 +1,49 @@
+const canvasTag = document.querySelector("canvas");
+canvasTag.width = window.innerWidth;
+canvasTag.height = window.innerHeight;
+
+const context = canvasTag.getContext("2d");
+
+let aimX = null;
+let aimY = null;
+let currentX = null;
+let currentY = null;
+
+
+let i = 0;
+
+const images = ["image-1.jpg", "image-2.jpg", "image-3.jpg", "image-4.jpg", "image-5.jpg", "image-6.jpg", "image-7.jpg", "image-8.jpg"].map(src => {
+	const image = document.createElement("img");
+	image.src = src;
+	return image;
+})
+
+document.addEventListener("mousemove", function (event) {
+	aimX = event.pageX;
+	aimY = event.pageY;
+	if (currentX === null) {
+		currentX = event.pageX;
+		currentY = event.pageY;
+	}
+	
+});
+
+canvasTag.addEventListener("click", function () {
+	i = i + 1;
+	if (i >= images.length) {
+		i = 0;
+	}
+});
+
+const draw = function () {
+	if (currentX) {
+		if (images[i].complete) {
+			context.drawImage(images[i], currentX - 200, currentY - 300, 400, 600)
+		}
+		currentX = currentX + (aimX - currentX) * 0.1;
+		currentY = currentY + (aimY - currentY) * 0.1;
+	}
+	requestAnimationFrame(draw);
+}
+
+draw();
