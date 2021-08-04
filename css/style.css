@@ -137,7 +137,7 @@ span {
 .nav {
 	position: absolute;
 	top: 16px;
-	right: 25px
+	right: 25px;
 	z-index: 20000;
 }
 .nav a {
