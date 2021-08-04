@@ -107,6 +107,7 @@ span {
 .main-container {
 	display: flex;
 	justify-content: center;
+	cursor: help;
 }
 .left-cont {
 	display: flex;
