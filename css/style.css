@@ -169,7 +169,8 @@ span {
   height: 54px;
   border: 1px solid black;
   border-radius: 50%;
-  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1);
+  animation-iteration-count: 10;
   border-color: black transparent transparent transparent;
 }
 .lds-ring div:nth-child(1) {
@@ -193,9 +194,11 @@ span {
 @keyframes loadFade {
 	from {
 		opacity: 100%;
+		visibility: visible;
 	}
 	to {
 		opacity: 0%;
+		visibility: hidden;
 	}
 }
 
