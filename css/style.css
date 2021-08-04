@@ -211,7 +211,7 @@ span {
 	background: rgba(249,248,243,0.95);
 	z-index: 30000;
 	transition: all ease-in-out 0.5s;
-	animation-delay: 1s;
+	animation-delay: 1.2s;
 	animation-name: loadFade;
 	animation-duration: 1s;
 	animation-timing-function: ease-in-out;
