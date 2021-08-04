@@ -114,7 +114,6 @@ span {
 	align-items: flex-end;
 	margin-right: 24px;
 }
-
 .upper-cont {
 	display: flex;
 	align-items: center;
@@ -140,4 +139,17 @@ span {
 }
 .last span {
 	line-height: 1;
+}
+.nav {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	z-index: 20000;
+}
+.nav a {
+	text-decoration: none;
+	color: black;
+}
+.nav a:first-child {
+	margin-right: 15px;
 }
