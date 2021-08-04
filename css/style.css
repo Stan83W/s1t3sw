@@ -83,10 +83,22 @@ html, body {
 	margin: 0;
 	overflow: hidden;
 }
+@media (max-width: 700px) {
+	html, body {
+		line-height: 24px;	
+	}
+}
 p, h1, h2, span, .left-cont div {
 	margin: 0;
 	font-size: 16px;
 	font-weight: normal;
+}
+@media (max-width: 700px) {
+  p, h1, h2, span, .left-cont div {
+  	margin: 0;
+  	font-size: 12px;
+  	font-weight: normal;
+  }
 }
 span {
 	padding-right: 14px;
@@ -112,6 +124,11 @@ span {
 	align-items: flex-end;
 	margin-right: 24px;
 }
+@media (max-width: 700px) {
+	.left-cont {
+		margin-right: 20px;
+	}
+}
 .upper-cont {
 	display: flex;
 	align-items: center;
@@ -124,11 +141,21 @@ span {
 .subtitle {
 	font-size: 18px;
 }
+@media (max-width: 700px) {
+	.subtitle {
+		font-size: 16px;
+	}
+}
 .first {
-	padding-top: 6px;
+	padding-top: 5px;
 }
 .title {
 	font-size: 28px;
+}
+@media (max-width: 700px) {
+	.title {
+		font-size: 24px;
+	}
 }
 .last {
 	display: flex;
@@ -225,3 +252,4 @@ span {
 	animation-iteration-count: 1;
 	-webkit-animation-fill-mode: forwards;
 }
+
