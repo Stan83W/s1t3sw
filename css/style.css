@@ -87,13 +87,6 @@ p, h1, h2, span, .left-cont div {
 span {
 	padding-right: 14px;
 }
-.img-bg {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-}
 .left-cont div {
 	position: relative;
 	bottom: -7px;
@@ -158,4 +151,70 @@ span {
 .nav a:hover {
 	opacity: 0.5;
 	transition: all ease-in-out 0.5s;
+}
+
+/* Loader */
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 54px;
+  height: 54px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  border: 1px solid black;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: black transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loadFade {
+	from {
+		opacity: 100%;
+	}
+	to {
+		opacity: 0%;
+	}
+}
+
+.load {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(249,248,243,0.95);
+	z-index: 30000;
+	transition: all ease-in-out 0.5s;
+	animation-delay: 1s;
+	animation-name: loadFade;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;
 }
