@@ -9,9 +9,6 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
   color: black;
 
 }
-:root {
-	font-size: 17px;
-}
 ::-webkit-scrollbar {
   display: none;
 }
@@ -33,7 +30,7 @@ html, body {
 	text-transform: uppercase;
 	margin: 0;
 	overflow: hidden;
-	font-size: 13px;
+	font-size: 12px;
 }
 @font-face {
 	font-family: "MGR";
@@ -48,7 +45,7 @@ p, h1, h2, span {
 	font-weight: normal;
 }
 ion-icon {
-	font-size: 17px;
+	font-size: 16px;
 	padding-left: 8px;
 }
 .column {
@@ -71,10 +68,10 @@ ion-icon {
 	width: 100%;
 }
 .section-body {
-	font-size: 17px;
+	font-size: 16px;
 }
 .section-body span {
-	font-size: 13px;
+	font-size: 12px;
 }
 .title-box {
 	display: flex;
@@ -95,7 +92,7 @@ ion-icon {
 	line-height: 100%;
 }
 .sht-desc {
-	font-size: 17px;
+	font-size: 16px;
 }
 .sht-desc, .update {
 	text-transform: initial;	
@@ -125,11 +122,11 @@ ion-icon {
   box-shadow: none !important;
 }
 .identity {
-	font-size: 17px;
+	font-size: 16px;
 	letter-spacing: 3px;
 }
 .identity span {
-	font-size: 13px;
+	font-size: 12px;
 	letter-spacing: normal;
 	padding-right: 8px;
 }
@@ -141,7 +138,7 @@ ion-icon {
 }
 .update {
 	padding: 16px 0;
-	font-size: 17px;
+	font-size: 16px;
 }
 .section-title {
 	text-transform: uppercase;
@@ -152,7 +149,7 @@ ion-icon {
 	color: black;
 	text-decoration: underline;
 	text-transform: capitalize;
-	font-size: 17px;
+	font-size: 16px;
 }
 .contact span {
 	padding-right: 8px;
@@ -180,7 +177,6 @@ ion-icon {
 .content__title {
 	position: relative;
 	z-index: 10000;
-	font-size: 27vw;
 	mix-blend-mode: var(--blendmode-title);
 	-webkit-text-stroke: 2px var(--color-title);
 	text-stroke: 2px var(--color-title);
