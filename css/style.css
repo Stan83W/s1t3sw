@@ -55,10 +55,6 @@ ion-icon {
 	width: 30%;
 	scrollbar-width: none;
 }
-.identity {
-	width: 60%;
-	padding: 0 0 0 105px;
-}
 .accordion-box {
 	padding: 16px 0;
 	display: flex;
@@ -125,6 +121,8 @@ ion-icon {
 .identity {
 	font-size: 16px;
 	letter-spacing: 3px;
+	width: 60%;
+	padding: 0 0 0 87px;
 }
 .identity span {
 	font-size: 12px;
