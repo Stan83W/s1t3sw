@@ -194,8 +194,8 @@ ion-icon {
 
 
 @media (max-width: 700px) {
-	.left-cont {
-		margin-right: 20px;
+	.column {
+		width: 100px;
 	}
 }
 
