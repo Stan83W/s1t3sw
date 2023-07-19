@@ -58,7 +58,7 @@ ion-icon {
 	scrollbar-width: none;
 	background: white;
 	padding: 16px;
-	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
 }
 .accordion-box {
 	padding: 16px 0;
