@@ -20,7 +20,7 @@
 			<div class="lds-ring"><div></div><div></div><div></div><div></div></div>
 		</div>
 		<main>
-			<div class="content">
+<!-- 			<div class="content">
 				<img class="content__img" src="img/1.jpg" alt="Some image" />
 				<img class="content__img" src="img/2.jpg" alt="Some image" />
 				<img class="content__img" src="img/3.jpg" alt="Some image" />
@@ -39,7 +39,7 @@
 				<img class="content__img" src="img/16.jpg" alt="Some image" />
 				<img class="content__img" src="img/17.jpg" alt="Some image" />
 				<img class="content__img" src="img/18.jpg" alt="Some image" />
-			</div>
+			</div> -->
 
 			<div class="upper-cont">
 				<div class="column">
@@ -53,8 +53,8 @@
 							<div class="identity"><span>ID</span>714183-233063</div>
 							<ul class="collapsible">
 							    <li>
-							      <div class="collapsible-header">Profile informations<ion-icon name="add-circle-outline"></ion-icon></div>
-							      <div class="collapsible-body first">
+							      <div class="collapsible-header" id="coll">Profile informations<ion-icon name="add-circle-outline"></ion-icon></div>
+							      <div class="collapsible-body first" id="scrollb">
 							      	<p class="section-title">curriculum</p>
 							      	<p class="section-body">self-employed <span>2011 - 2022</span><br>
 									henoch consulting <span>2008 - 2011</span><br>
@@ -135,5 +135,19 @@
 		<script src="js/app.js"></script>
 		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+		<script src="js/smooth-scrollbar.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+		<script>
+
+		  /*var Scrollbar = window.Scrollbar;
+		  function scroll() {
+		  	Scrollbar.init(document.querySelector('#scrollb'));
+		  }
+		  document.getElementById('coll').addEventListener("click", function(){
+			  $( "#coll" ).toggle(function() {
+			    scroll();
+			  });
+		  });*/
+		</script>
 	</body>
 </html>

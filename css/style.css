@@ -12,6 +12,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 ::-webkit-scrollbar {
   display: none;
 }
+
 body {
 	--color-text: #262523;
     --color-bg: #ffffff;
@@ -158,7 +159,24 @@ ion-icon {
 }
 .first {
 	margin-bottom: 16px;
+	height: 500px;
+	width: 100%;
+	overflow: auto;
 }
+.first .section-body {
+	padding-right: 20%;
+}
+
+
+
+/*.first {
+	scrollbar-color: black white;
+	scrollbar-width: thin;
+	height: 500px;
+	overflow-y: scroll;
+	scrollbar-width: thin;
+}
+*/
 
 /* Images hover effect */
 
