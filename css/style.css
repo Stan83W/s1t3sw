@@ -118,7 +118,7 @@ ion-icon {
 	display: flex;
 	align-items: baseline;
 	justify-content: center;
-	height: 100vh;
+	height: calc(100vh - 40px);
 	z-index: 10000;
 	position: relative;
 	color: black;
