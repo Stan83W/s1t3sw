@@ -100,6 +100,7 @@ ion-icon {
 	color: black;
 	/*margin: 20px;*/
 	line-height: 100%;
+	overflow-y: scroll;
 }
 .sht-desc {
 	font-size: 16px;
