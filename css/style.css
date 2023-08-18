@@ -52,6 +52,7 @@ ion-icon {
 }
 .nav-cont {
 	background-color: black;
+	height: 28px;
 }
 .fake-nav {
 	width: 100vw;
