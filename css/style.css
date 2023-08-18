@@ -53,6 +53,11 @@ ion-icon {
 .fake-nav {
 	width: 100vw;
 }
+@media (max-width: 700px) {
+	.fake-nav {
+		display: none;
+	}
+}
 .column {
 	height: 896px;
 	overflow-y: scroll;
@@ -65,6 +70,11 @@ ion-icon {
 	margin-top: 45px;
 	margin-bottom: 10px;
 	border: 1px solid rgba(0,0,0,0.15);
+}
+@media (max-width: 700px) {
+	.column {
+		margin-top: 0;
+	}
 }
 .accordion-box {
 	padding: 16px 0;
