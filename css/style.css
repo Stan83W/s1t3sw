@@ -69,6 +69,11 @@ ion-icon {
 		display: none;
 	}
 }
+@media (max-width: 700px) {
+	.nav-cont {
+		display: none;
+	}
+}
 .column {
 	min-height: 896px;
 	overflow-y: scroll;
