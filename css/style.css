@@ -50,6 +50,9 @@ ion-icon {
 	font-size: 16px;
 	padding-left: 8px;
 }
+.nav-cont {
+	background-color: black;
+}
 .fake-nav {
 	width: 100vw;
 }
