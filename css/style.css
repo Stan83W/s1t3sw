@@ -59,8 +59,8 @@ ion-icon {
 }
 .fake-nav:hover {
 	cursor: pointer;
-	opacity: 0.5;
-	transition: all 0.5s;
+	opacity: 0.8;
+	transition: all 0.3s;
 }
 @media (max-width: 700px) {
 	.fake-nav {
