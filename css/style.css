@@ -53,6 +53,10 @@ ion-icon {
 .fake-nav {
 	width: 100vw;
 }
+.fake-nav:hover {
+	background-color: rgb(0,0,0);
+	opacity: 0.7;
+}
 @media (max-width: 700px) {
 	.fake-nav {
 		display: none;
