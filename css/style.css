@@ -59,7 +59,7 @@ ion-icon {
 	}
 }
 .column {
-	height: 896px;
+	min-height: 896px;
 	overflow-y: scroll;
 	box-sizing: content-box;
 	width: 30%;
