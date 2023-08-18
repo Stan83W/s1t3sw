@@ -50,6 +50,12 @@ ion-icon {
 	font-size: 16px;
 	padding-left: 8px;
 }
+.fake-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+}
 .column {
 	height: 896px;
 	overflow-y: scroll;
