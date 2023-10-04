@@ -124,7 +124,11 @@ ion-icon {
 	color: black;
 	/*margin: 20px;*/
 	line-height: 100%;
+	scrollbar-width: none;
 	overflow-y: scroll;
+}
+.upper-cont::-webkit-scrollbar { 
+    display: none;
 }
 .sht-desc {
 	font-size: 16px;
